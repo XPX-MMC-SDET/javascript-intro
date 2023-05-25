@@ -1,7 +1,7 @@
 # Data Types & Variables
 Submit a PR for each exercise. 
 
-Update `data-types-variables.js` for all these exercises.
+Update `data-types-variables.js` in your student directory for all these exercises.
 
 ## Ex 1
 Update the arrow function: `ex1()` to store the text: Hello World to a constant variable.
