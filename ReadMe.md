@@ -5,4 +5,8 @@ Assignment repo to help us learn JavaScript.  Assignments are located [here](Ass
 - Clone this repo
 - Install depedencies: `npm install`
 - `cd` into your student directory
-- Execute the JavaScript program: `node app.js`
+- Execute the JavaScript program: `node data-types.js`
+- `Exercise 1` will be displayed in the console.
+
+# Notes
+- Built using Node v16.13.2
