@@ -11,7 +11,7 @@ Example usage:
 printMessage('Hello World!')
 ```
 
-Console
+Console output:
 ```
 Hello World
 ```
@@ -25,7 +25,7 @@ const result = add(2, 3)
 console.log(result) 
 ```
 
-Console:
+Console output:
 ```
 5
 ```
@@ -58,8 +58,14 @@ HelloHello
 ```
 
 ## Ex 5 
-Update the arrow function: `ex5()` to call a function named:
+Update the arrow function: `ex5()` to call a function named: `multiply()`.  This function multiplies two numbers passed into it and displays the result on the console.  This function returns nothing.
 
+Example usage:
 ```
 multiply(2, 3)
+```
+
+Console output:
+```
+6
 ```
