@@ -28,11 +28,15 @@ const ex3 = () => {
 
 const ex4 = () => {
     console.log('Exercise 4')
-    
+    console.log(convertNumberToText(1))
+    console.log(convertNumberToText(2))
+    console.log(convertNumberToText(3))
 }
 
 const ex5 = () => {
     console.log('Exercise 5')
+    console.log(testButton("1", "Login"))
+    console.log(testButton("1", "Logout"))
 }
 
 //
@@ -78,13 +82,31 @@ const dayOfWeek = (day) => {
     }
 }
 
+const convertNumberToText = (num) => {
+    switch(num) {
+        case 1:
+            return 'ONE'
+        case 2:
+            return 'TWO'
+        case 3:
+            return 'THREE'
+    }
+}
+
+const testButton = (buttonId, buttonText) => {
+    if (buttonId == 1 && buttonText == 'Login') {
+        return 'Pass'
+    } else {
+        return 'Fail'
+    }
+}
 
 //
 // The one and only main function.
 //
 
 const main = () => {
-    ex3() // Change to ex2(), ex3(), ex4(), or ex5().
+    ex5() // Change to ex2(), ex3(), ex4(), or ex5().
 }
 
 main()
