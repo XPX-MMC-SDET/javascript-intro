@@ -6,14 +6,21 @@
 
 const ex1 = () => {
     console.log('Exercise 1')
+    const word1 = '   Hello  '
+    const word2 = '    World!'
+    console.log(trimAndMerge(word1, word2))
 }
 
 const ex2 = () => {
     console.log('Exercise 2')
+    const sentence = 'This is a test'
+    const word = longestWord(sentence)
+    console.log(word)
 }
 
 const ex3 = () => {
     console.log('Exercise 3')
+    
 }
 
 const ex4 = () => {
@@ -28,6 +35,20 @@ const ex5 = () => {
 // YOUR FUNCTIONS GO HERE.
 //
 
+const longestWord = (str) => {
+    let array = str.split(' ')
+    let longest = array[0]
+    for (let i = 0; i < array.length; i++) {
+        if (array[i].length > longest.length) {
+            longest = array[i]
+        }
+    }
+    return longest
+}
+
+const trimAndMerge = (str1, str2) => {
+    return `${str1.trim()} ${str2.trim()}`
+}
 
 
 //
@@ -35,7 +56,7 @@ const ex5 = () => {
 //
 
 const main = () => {
-    ex1() // Change to ex2(), ex3(), ex4(), or ex5().
+    ex2() // Change to ex2(), ex3(), ex4(), or ex5().
 }
 
 main()
