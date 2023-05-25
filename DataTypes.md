@@ -1,4 +1,5 @@
 # Data Types
+Submit a PR for each exercise. 
 
 ## Ex 1: 
 

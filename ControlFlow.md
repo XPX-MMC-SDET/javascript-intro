@@ -1,4 +1,4 @@
-# Classes
+# Control Flow
 Submit a PR for each exercise. 
 
 ## Ex 1: 
