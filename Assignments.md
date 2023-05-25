@@ -6,6 +6,7 @@
 - [Control Flow](ControlFlow.md)
 - [Arrays](Arrays.md)
 - [Functions](Functions.md)
+- [Strings](Strings.md)
 - [Objects](Objects.md)
 - [Classes](Classess.md)
 

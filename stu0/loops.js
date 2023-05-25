@@ -71,9 +71,6 @@ const printMessage = (message, numTimes) => {
     }
 }
 
-
-
-
 //
 // The one and only main function.
 //
