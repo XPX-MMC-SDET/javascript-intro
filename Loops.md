@@ -1,12 +1,19 @@
 # Loops
 Submit a PR for each exercise. 
 
-## Ex 1: 
+Update `loops.js` in your student directory for all these exercises.
 
-## Ex 2: 
+## Ex 1
 
-## Ex 3: 
 
-## Ex 4: 
+## Ex 2 
 
-## Ex 5: 
+
+## Ex 3 
+
+
+## Ex 4
+
+
+## Ex 5
+
