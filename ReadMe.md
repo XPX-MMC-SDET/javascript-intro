@@ -1,5 +1,5 @@
 # Intro into JavaScript
-Assignment repo to help us learn JavaScript.  Assignments are located [here](Assignments.md)
+Assignment repo to help us learn JavaScript.  Assignments are located [here](Assignments.md).
 
 # Path to Awesomeness
 - Clone this repo
