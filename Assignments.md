@@ -1,6 +1,6 @@
 # Assignments
 
-- [DataTypes](DataTypes.md)
+- [DataTypes & Variables](DataTypes-Variables.md)
 - [Variables](Variables.md)
 - [Loops](Loops.md)
 - [Control Flow](ControlFlow.md)
