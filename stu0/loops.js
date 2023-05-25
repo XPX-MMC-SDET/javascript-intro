@@ -79,7 +79,7 @@ const printMessage = (message, numTimes) => {
 //
 
 const main = () => {
-    ex1() // Change to ex2(), ex3(), ex4(), or ex5().
+    ex5() // Change to ex2(), ex3(), ex4(), or ex5().
 }
 
 main()
