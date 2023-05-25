@@ -1,3 +1,3 @@
 # Assignments
 
-- [DataTypes]()
+- [DataTypes](DataTypes.md)
