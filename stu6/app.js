@@ -1,5 +1,2 @@
-const main = () => {
-    console.log('Hello World')
-}
-
-main()
+let message = "Hello World"
+console.log(message)
