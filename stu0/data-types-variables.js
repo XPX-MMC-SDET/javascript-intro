@@ -1,16 +1,18 @@
 //
-// Name: data-types.js
+// Name: data-types-variables.js
 // Date: 5/25/2023
 // Desc: Demonstrate basic data types and variables with JavaScript.
 //
 
 const ex1 = () => {
-    console.log('Exercise 1')
-
+    const message = 'Hello World!'
+    console.log(message)
 }
 
 const ex2 = () => {
-    console.log('Exercise 2')
+    let number1 = 5
+    let number2 = "5"
+    console.log(Number(number2) + number1)
 }
 
 const ex3 = () => {
