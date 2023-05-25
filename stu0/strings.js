@@ -26,17 +26,25 @@ const ex3 = () => {
 
 const ex4 = () => {
     console.log('Exercise 4')
-
+    const oldString  = '1,2,3,4,5,6'
+    const newString = format(oldString)
+    console.log(newString)
 }
 
 const ex5 = () => {
     console.log('Exercise 5')
-    
+    const sentence = 'This is a test'
+    const subString = sentence.substring(10)
+    console.log(subString)
 }   
 
 //
 // YOUR FUNCTIONS GO HERE.
 //
+
+const format = (str) => {
+    return str.replaceAll(',', ', ')
+}
 
 const convertToUpper = (array) => {
     for (let i = 0; i < array.length; i++) {
@@ -66,7 +74,7 @@ const trimAndMerge = (str1, str2) => {
 //
 
 const main = () => {
-    ex4() // Change to ex2(), ex3(), ex4(), or ex5().
+    ex5() // Change to ex2(), ex3(), ex4(), or ex5().
 }
 
 main()
