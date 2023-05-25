@@ -1,0 +1,19 @@
+{
+  "name": "javascript-intro",
+  "version": "1.0.0",
+  "description": "Assignment repo to help us learn JavaScript.  Assignments are located [here](Assignments.md)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XPX-MMC-SDET/javascript-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XPX-MMC-SDET/javascript-1/issues"
+  },
+  "homepage": "https://github.com/XPX-MMC-SDET/javascript-1#readme"
+}
