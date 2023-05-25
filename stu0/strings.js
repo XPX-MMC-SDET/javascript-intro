@@ -20,20 +20,30 @@ const ex2 = () => {
 
 const ex3 = () => {
     console.log('Exercise 3')
-    
+    const array = ['a', 'b', 'c']
+    console.log(convertToUpper(array))
 }
 
 const ex4 = () => {
     console.log('Exercise 4')
+
 }
 
 const ex5 = () => {
     console.log('Exercise 5')
+    
 }   
 
 //
 // YOUR FUNCTIONS GO HERE.
 //
+
+const convertToUpper = (array) => {
+    for (let i = 0; i < array.length; i++) {
+        array[i] = array[i].toUpperCase()
+    }
+    return array
+}
 
 const longestWord = (str) => {
     let array = str.split(' ')
@@ -56,7 +66,7 @@ const trimAndMerge = (str1, str2) => {
 //
 
 const main = () => {
-    ex2() // Change to ex2(), ex3(), ex4(), or ex5().
+    ex4() // Change to ex2(), ex3(), ex4(), or ex5().
 }
 
 main()
