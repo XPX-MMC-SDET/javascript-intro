@@ -3,7 +3,7 @@
 // Date: 5/25/2023
 // Desc: Demonstrate arrays in JavaScript.
 //
-
+ 
 const ex1 = () => {
     console.log('Exercise 1')
     const animals = ["Dog", "Cat", "Bird", "Fish"]
@@ -70,7 +70,7 @@ const isAnimalInList = (animals, theAnimal) => {
 //
 
 const main = () => {
-    ex1() // Change to ex2(), ex3(), ex4(), or ex5().
+    ex5() // Change to ex2(), ex3(), ex4(), or ex5().
 }
 
 main()
