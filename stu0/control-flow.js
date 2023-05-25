@@ -13,7 +13,7 @@ const ex1 = () => {
 const ex2 = () => {
     console.log('Exercise 2')
     const addResult = calculate('add', 2, 3)
-    const subResult = calculate('sub', 10, 3)
+    const subResult = calculate('subtract', 10, 3)
     console.log(addResult)
     console.log(subResult)
 }
@@ -21,11 +21,14 @@ const ex2 = () => {
 const ex3 = () => {
     console.log('Exercise 3')
     console.log(dayOfWeek('Monday'))
+    console.log(dayOfWeek('Tuesday'))
+    console.log(dayOfWeek('Wednesday'))
+    console.log(dayOfWeek('Hump day'))
 }
 
 const ex4 = () => {
     console.log('Exercise 4')
-
+    
 }
 
 const ex5 = () => {
@@ -76,14 +79,12 @@ const dayOfWeek = (day) => {
 }
 
 
-
-
 //
 // The one and only main function.
 //
 
 const main = () => {
-    ex4() // Change to ex2(), ex3(), ex4(), or ex5().
+    ex3() // Change to ex2(), ex3(), ex4(), or ex5().
 }
 
 main()
