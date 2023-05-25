@@ -7,12 +7,15 @@
 const ex1 = () => {
     console.log('Exercise 1')
     console.log(message('log in'))
+    console.log(message('log out'))
 }
 
 const ex2 = () => {
     console.log('Exercise 2')
-    const result = calculate('add', 2, 3)
-    console.log(result)
+    const addResult = calculate('add', 2, 3)
+    const subResult = calculate('sub', 10, 3)
+    console.log(addResult)
+    console.log(subResult)
 }
 
 const ex3 = () => {
@@ -80,7 +83,7 @@ const dayOfWeek = (day) => {
 //
 
 const main = () => {
-    ex3() // Change to ex2(), ex3(), ex4(), or ex5().
+    ex4() // Change to ex2(), ex3(), ex4(), or ex5().
 }
 
 main()
