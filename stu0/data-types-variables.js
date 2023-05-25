@@ -6,8 +6,7 @@
 
 const ex1 = () => {
     console.log('Exercise 1')
-    let a = 1;
-    let b = 2;
+    
 }
 
 const ex2 = () => {
