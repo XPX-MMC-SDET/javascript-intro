@@ -18,19 +18,31 @@ Hello, my name is John and I am 30 years old.
 ```
 
 ## Ex 2
-todo
-Example Usage:
+Given the following Person objects:
+
+```
+const p1 = new Person('Alice', 30)
+const p2 = new Person('Bob', 20)
+const p3 = new Person('Charlie', 25)
 ```
 
+Update the arrow function: `ex2()` to call a function: `calcAverageAge()`.  This function takes an array of Person objects and returns the average age of all the people in the array.
+
+Example Usage:
+```
+const avgAge = calcAverageAge(people)
+console.log(`Average age: ${avgAge}`)
 ```
 
 Output:
 ```
-
+Average age: 25
 ```
 
 ## Ex 3
 todo
+
+
 Example Usage:
 ```
 

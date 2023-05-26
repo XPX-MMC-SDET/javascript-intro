@@ -12,6 +12,14 @@ const ex1 = () => {
 
 const ex2 = () => {
     console.log('Exercise 2')
+
+    const p1 = new Person('Alice', 30)
+    const p2 = new Person('Bob', 20)
+    const p3 = new Person('Charlie', 25)
+
+    const people = [p1, p2, p3]
+    const avgAge = calcAverageAge(people)
+    console.log(`Average age: ${avgAge}`)
 }
 
 const ex3 = () => {
@@ -41,13 +49,27 @@ class Person {
     }
 }
 
+//
+// YOUR FUNCTIONS GO HERE
+//
+
+const calcAverageAge = (people) => {
+    let sum = 0
+    for (let i = 0; i < people.length; i++) {
+        sum += people[i].age
+    }
+    return sum / people.length
+}
+
+
+
 
 //
 // The one and only main function.
 //
 
 const main = () => {
-    ex1() // Change to ex2(), ex3(), ex4(), or ex5().
+    ex2() // Change to ex2(), ex3(), ex4(), or ex5().
 }
 
 main()
