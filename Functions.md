@@ -8,9 +8,11 @@ Update the arrow function: `ex1()` to call a function named: `printMessage()`.  
 
 Place your functions in the section entitled:
 
+~~~
 //
 // YOUR FUNCTIONS GO HERE
 //
+~~~
 
 Example usage:
 ```
