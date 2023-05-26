@@ -48,7 +48,7 @@ const ex4 = () => {
 const ex5 = () => {
     console.log('Exercise 5')
     console.log(calcNumbers("Add", 2, 3))
-    console.log(calcNumbers("Substract", 2, 3))
+    console.log(calcNumbers("Substract", 5, 2))
 }
 
 //

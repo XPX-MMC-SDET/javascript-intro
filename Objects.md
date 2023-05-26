@@ -21,7 +21,7 @@ Output:
 ```
 
 ## Ex 2
-Consider the fact that we can dynamically push content to arrays at runtime using the `push()` method:
+In JavaScript, we can dynamically push content to arrays at runtime using the `push()` method:
 
 ```
 const array = []
@@ -30,7 +30,7 @@ array.push(2)
 array.push(3)
 ```
 
-Update the arrow function: `ex2()` to push three people objects to an array and display the contents on the console:
+Update the arrow function: `ex2()` to push three people objects to an array and display the contents of the array on the console:
 
 Output:
 ```
@@ -76,6 +76,16 @@ Output:
 ```
 
 ## Ex 5
-Update the arrow function: `ex4()` to call a function: `calcNumbers()`. 
+Update the arrow function: `ex5()` to call a function: `calcNumbers()`.  This function accepts three arguments.  The first argument is the mathmatical operation to perform (Add or Substract).  The second and third arguments contain the operands.
 
+Example usage:
+```
+console.log(calcNumbers("Add", 2, 3))
+console.log(calcNumbers("Substract", 5, 2))
+```
 
+Output:
+```
+{ operand1: 2, operand2: 3, result: 5, action: 'Add' }
+{ operand1: 5, operand2: 2, result: 3, action: 'Substract'}
+```
