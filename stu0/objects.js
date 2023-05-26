@@ -31,6 +31,15 @@ const ex2 = () => {
 
 const ex3 = () => {
     console.log('Exercise 3')
+    const p1 = { id: 1, salary: 60000}
+    const p2 = { id: 1, salary: 60000}
+    const p3 = { id: 1, salary: 60000}
+
+    const array = []
+    array.push(p1)
+    array.push(p2)
+    array.push(p3)
+    calculateSalary()
 }
 
 const ex4 = () => {
@@ -46,6 +55,14 @@ const ex5 = () => {
 //
 
 
+const calculateSalary = (array) => {
+    let retval;
+    array.forEach(person => {
+        retval += person.salary
+    })
+   return retval
+}
+
 
 
 //
@@ -53,7 +70,7 @@ const ex5 = () => {
 //
 
 const main = () => {
-    ex2() // Change to ex2(), ex3(), ex4(), or ex5().
+    ex3() // Change to ex2(), ex3(), ex4(), or ex5().
 }
 
 main()
