@@ -40,42 +40,49 @@ Average age: 25
 ```
 
 ## Ex 3
-todo
-
+Update the arrow function: `ex3()` to instantiate a Calculator class.  The constructor of this class accepts two arguments: operand 1 and operand 2.  The Calculator class has one method that returns the sum of the operands.
 
 Example Usage:
 ```
-
+const myCalculator = new Calculator(1,3)
+console.log(myCalculator.add())
 ```
 
 Output:
 ```
-
+4
 ```
 
 ## Ex 4
-todo
+Update the Calculator class to include subtract, multiply and divide methods.
+
+
 Example Usage:
 ```
-
+const myCalculator = new Calculator(10,2)
+console.log(myCalculator.substract())
+console.log(myCalculator.multiply())
+console.log(myCalculator.divide())
 ```
 
 Output:
 ```
-
+8
+20
+5
 ```
-
 
 ## Ex 5
-todo
+Update the `divide()` method in the Calculator class to return the text: "Cannot divide by zero" when a zero is passed into the divide method.
+
 Example Usage:
 ```
-
+const myCalculator = new Calculator(10, 0)
+console.log(myCalculator.divide())
 ```
 
 Output:
 ```
-
+Cannot divide by zero.
 ```
-
 
