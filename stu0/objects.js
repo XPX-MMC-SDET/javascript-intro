@@ -42,8 +42,7 @@ const ex3 = () => {
 
 const ex4 = () => {
     console.log('Exercise 4')
-    
-
+    console.log(addNumbers(2, 3))
 }
 
 const ex5 = () => {
@@ -53,6 +52,14 @@ const ex5 = () => {
 //
 // YOUR FUNCTIONS GO HERE
 //
+
+const addNumbers = (num1, num2) => {
+    return {
+        operand1: num1,
+        operand2: num2,
+        total: num1 + num2
+    }
+}
 
 
 const calculateSalary = (array) => {
@@ -70,7 +77,7 @@ const calculateSalary = (array) => {
 //
 
 const main = () => {
-    ex3() // Change to ex2(), ex3(), ex4(), or ex5().
+    ex4() // Change to ex2(), ex3(), ex4(), or ex5().
 }
 
 main()
