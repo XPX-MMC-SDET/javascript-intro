@@ -24,14 +24,17 @@ const ex2 = () => {
 
 const ex3 = () => {
     console.log('Exercise 3')
+    
 }
 
 const ex4 = () => {
     console.log('Exercise 4')
+
 }
 
 const ex5 = () => {
     console.log('Exercise 5')
+
 }
 
 //
