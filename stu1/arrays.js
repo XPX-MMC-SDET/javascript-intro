@@ -1,9 +1,9 @@
 //
-// Name: data-types-variables.js
+// Name: arrays.js
 // Date: 5/25/2023
 // Desc: Demonstrate arrays in JavaScript.
 //
-
+ 
 const ex1 = () => {
     console.log('Exercise 1')
 }
@@ -23,6 +23,10 @@ const ex4 = () => {
 const ex5 = () => {
     console.log('Exercise 5')
 }
+
+//
+// YOUR FUNCTIONS GO HERE
+//
 
 //
 // The one and only main function.

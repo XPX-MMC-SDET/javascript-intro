@@ -1,7 +1,7 @@
 //
-// Name: objects.js
+// Name: strings.js
 // Date: 5/25/2023
-// Desc: Demonstration of objects in JavaScript.
+// Desc: Demonstrates the use of strings in JavaScript.
 //
 
 const ex1 = () => {
@@ -22,7 +22,11 @@ const ex4 = () => {
 
 const ex5 = () => {
     console.log('Exercise 5')
-}
+}   
+
+//
+// YOUR FUNCTIONS GO HERE.
+//
 
 //
 // The one and only main function.

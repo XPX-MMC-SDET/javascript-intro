@@ -22,7 +22,11 @@ const ex4 = () => {
 
 const ex5 = () => {
     console.log('Exercise 5')
-}
+}   
+
+//
+// YOUR FUNCTIONS GO HERE.
+//
 
 //
 // The one and only main function.

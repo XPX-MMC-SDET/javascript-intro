@@ -1,5 +1,5 @@
 //
-// Name: data-types-variables.js
+// Name: classes.js
 // Date: 5/25/2023
 // Desc: Demonstrate classes in JavaScript.
 //
@@ -23,6 +23,14 @@ const ex4 = () => {
 const ex5 = () => {
     console.log('Exercise 5')
 }
+
+//
+// YOUR CLASSES GO HERE
+//
+
+//
+// YOUR FUNCTIONS GO HERE
+//
 
 //
 // The one and only main function.
