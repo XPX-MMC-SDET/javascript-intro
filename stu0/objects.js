@@ -19,31 +19,31 @@ const ex1 = () => {
 
 const ex2 = () => {
     console.log('Exercise 2')
-
     const array = []
     array.push({ firstName: "Alice"})
     array.push({ firstName: "Bob"})
     array.push({ firstName: "Charlie"})
-
     console.log(array)
-
 }
 
 const ex3 = () => {
     console.log('Exercise 3')
-    const p1 = { id: 1, salary: 60000}
-    const p2 = { id: 1, salary: 60000}
-    const p3 = { id: 1, salary: 60000}
+    const person1 = { id: 1, salary: 60000}
+    const person2 = { id: 2, salary: 30000}
+    const person3 = { id: 3, salary: 10000}
 
     const array = []
-    array.push(p1)
-    array.push(p2)
-    array.push(p3)
-    calculateSalary()
+    array.push(person1)
+    array.push(person2)
+    array.push(person3)
+    const result = calculateSalary(array)
+    console.log(result)
 }
 
 const ex4 = () => {
     console.log('Exercise 4')
+    
+
 }
 
 const ex5 = () => {
@@ -56,7 +56,7 @@ const ex5 = () => {
 
 
 const calculateSalary = (array) => {
-    let retval;
+    let retval = 0
     array.forEach(person => {
         retval += person.salary
     })

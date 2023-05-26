@@ -41,12 +41,30 @@ Output:
 ]
 ```
 
-
 ## Ex 3
+Given the following person objects:
+```
+const person1 = { id: 1, salary: 60000}
+const person2 = { id: 2, salary: 30000}
+const person3 = { id: 3, salary: 10000}
+```
 
+Update the arrow function: `ex3()` to add these person objects to an array.  Pass this array into a function called `calculateSalary()`.  This function accepts an array of person objects and returns the total salary of all the people.
+
+Example Usage:
+```
+const result = calculateSalary(array)
+```
+
+Console output:
+```
+100000
+```
 
 
 ## Ex 4 
+
+
 
 
 ## Ex 5
