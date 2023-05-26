@@ -57,7 +57,7 @@ number
 Consider the following code:
 ```
 const beginning = "JavaScript is a "
-const typeOfLanguage = ""
+const typeOfLanguage = ""  // <== TODO: What is it???
 const end = " language."
 ```
 
