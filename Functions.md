@@ -6,7 +6,7 @@ Update `functions.js` in your student directory for all these exercises.
 ## Ex 1
 Update the arrow function: `ex1()` to call a function named: `printMessage()`.  The `printMessage()` function accepts one argument and displays the message on the console.  This function does not return anything.
 
-Place your functions in the section entitled:
+Place your functions directly under the section entitled:
 
 ~~~
 //
