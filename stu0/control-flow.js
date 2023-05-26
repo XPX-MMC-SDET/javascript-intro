@@ -106,7 +106,7 @@ const testButton = (buttonId, buttonText) => {
 //
 
 const main = () => {
-    ex5() // Change to ex2(), ex3(), ex4(), or ex5().
+    ex1() // Change to ex2(), ex3(), ex4(), or ex5().
 }
 
 main()

@@ -1,5 +1,5 @@
 //
-// Name: data-types-variables.js
+// Name: arrays.js
 // Date: 5/25/2023
 // Desc: Demonstrate arrays in JavaScript.
 //
@@ -70,7 +70,7 @@ const isAnimalInList = (animals, theAnimal) => {
 //
 
 const main = () => {
-    ex5() // Change to ex2(), ex3(), ex4(), or ex5().
+    ex1() // Change to ex2(), ex3(), ex4(), or ex5().
 }
 
 main()
