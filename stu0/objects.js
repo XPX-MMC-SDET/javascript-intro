@@ -6,12 +6,27 @@
 
 const ex1 = () => {
     console.log('Exercise 1')
-    
-
+    const car = {
+        id: 1,
+        make: 'Ford',
+        model: 'F150',
+        year: 2020,
+        price: '25000'
+    }
+    console.log(car)
+    console.log(Object.keys(car))
 }
 
 const ex2 = () => {
     console.log('Exercise 2')
+
+    const array = []
+    array.push({ firstName: "Alice"})
+    array.push({ firstName: "Bob"})
+    array.push({ firstName: "Charlie"})
+
+    console.log(array)
+
 }
 
 const ex3 = () => {
@@ -38,7 +53,7 @@ const ex5 = () => {
 //
 
 const main = () => {
-    ex1() // Change to ex2(), ex3(), ex4(), or ex5().
+    ex2() // Change to ex2(), ex3(), ex4(), or ex5().
 }
 
 main()
