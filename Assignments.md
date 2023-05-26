@@ -8,5 +8,5 @@
 - [Functions](Functions.md)
 - [Strings](Strings.md)
 - [Objects](Objects.md)
-- [Classes](Classess.md)
+- [Classes](Classes.md)
 
