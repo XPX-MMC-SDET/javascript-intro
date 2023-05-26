@@ -1,12 +1,10 @@
 # Assignments
 
 - [DataTypes & Variables](DataTypes-Variables.md)
-- [Variables](Variables.md)
-- [Loops](Loops.md)
+- [Functions](Functions.md)
 - [Control Flow](ControlFlow.md)
 - [Arrays](Arrays.md)
-- [Functions](Functions.md)
+- [Loops](Loops.md)
 - [Strings](Strings.md)
 - [Objects](Objects.md)
 - [Classes](Classes.md)
-

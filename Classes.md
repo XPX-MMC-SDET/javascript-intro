@@ -1,5 +1,5 @@
 # Classes
-Submit a PR for each exercise.
+Submit a PR for each exercise. Include the number of the exercise(s) in the title of the PR.
 
 Update `classes.js` in your student directory for all these exercises.
 
