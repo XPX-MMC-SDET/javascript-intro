@@ -61,11 +61,21 @@ Console output:
 100000
 ```
 
-
 ## Ex 4 
+Update the arrow function: `ex4()` to call a function: `addNumbers()`.  This function accepts two arguments and returns an object that contains that values passed into the function, the result, and the type of mathmatical operation that was applied.
 
+Example Usage:
+```
+console.log(addNumbers(2, 3))
+```
 
+Output:
+```
+{ operand1: 2, operand2: 3, result: 5, action: 'add' }
 
+```
 
 ## Ex 5
+Update the arrow function: `ex4()` to call a function: `calcNumbers()`. 
+
 

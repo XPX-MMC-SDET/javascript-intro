@@ -47,20 +47,31 @@ const ex4 = () => {
 
 const ex5 = () => {
     console.log('Exercise 5')
+    console.log(calcNumbers("Add", 2, 3))
+    console.log(calcNumbers("Substract", 2, 3))
 }
 
 //
 // YOUR FUNCTIONS GO HERE
 //
 
+const calcNumbers = (action, num1, num2) => {
+    return {
+        operand1: num1,
+        operand2: num2,
+        result: action === "Add" ? num1 + num2 : num1 - num2,
+        action: action
+    }
+}
+
 const addNumbers = (num1, num2) => {
     return {
         operand1: num1,
         operand2: num2,
-        total: num1 + num2
+        result: num1 + num2,
+        action: "add"
     }
 }
-
 
 const calculateSalary = (array) => {
     let retval = 0
@@ -70,14 +81,12 @@ const calculateSalary = (array) => {
    return retval
 }
 
-
-
 //
 // The one and only main function.
 //
 
 const main = () => {
-    ex4() // Change to ex2(), ex3(), ex4(), or ex5().
+    ex5() // Change to ex2(), ex3(), ex4(), or ex5().
 }
 
 main()
