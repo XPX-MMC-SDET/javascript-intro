@@ -6,6 +6,8 @@
 
 const ex1 = () => {
     console.log('Exercise 1')
+    const message = "Hello World"
+    console.log(message)
 }
 
 const ex2 = () => {
