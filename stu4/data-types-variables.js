@@ -22,7 +22,8 @@ const ex3 = () => {
 }
 
 const ex4 = () => {
-    console.log('Exercise 4')
+    const result = 1 + 2
+    console.log(typeof(result))
 }
 
 const ex5 = () => {
@@ -34,7 +35,7 @@ const ex5 = () => {
 //
 
 const main = () => {
-    ex3() // Change to ex2(), ex3(), ex4(), or ex5().
+    ex4() // Change to ex2(), ex3(), ex4(), or ex5().
 }
 
 main()
