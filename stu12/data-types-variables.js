@@ -16,7 +16,7 @@ const ex2 = () => {
 }
 
 const ex3 = () => {
-    const myName = "Rodrigo"
+    const myName = "Rodrigo Vazquez"
     const message = "was here."
     console.log(myName +" "+ message)
 }
