@@ -19,6 +19,12 @@ const ex2 = () => {
 
 const ex3 = () => {
     console.log('Exercise 3')
+    const myName = "John"
+    const message = "was here."
+    console.log(myName + ' ' + message)
+    //console.log(myName.concat(' ',message));
+    //console.log(' '.concat(myName,' ',message)); -- Need to Check with Marty for Extra space getting displayed
+
 }
 
 const ex4 = () => {
@@ -34,7 +40,7 @@ const ex5 = () => {
 //
 
 const main = () => {
-    ex2() // Change to ex2(), ex3(), ex4(), or ex5().
+    ex3() // Change to ex2(), ex3(), ex4(), or ex5().
 }
 
 main()
