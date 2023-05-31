@@ -18,13 +18,13 @@ const ex2 = () => {
 
 const ex3 = () =>{
     console.log('Exercise 3')
-    const result = 3 + 5
+    const result = 8 + 5
     console.log(typeof(result))
 }
 
 function ex4() {
     console.log('Exercise 4')
-    const result = 1 + 2 
+    const result = 9 + 2 
     console.log(typeof(result))
 }
 
