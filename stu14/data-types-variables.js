@@ -6,6 +6,8 @@
 
 const ex1 = () => {
     console.log('Exercise 1')
+    const message="Hello World"
+    console.log(message)
 }
 
 const ex2 = () => {
@@ -29,7 +31,7 @@ const ex5 = () => {
 //
 
 const main = () => {
-    ex1() // Change to ex2(), ex3(), ex4(), or ex5().
+    ex1() // Changec to ex2(), ex3(), ex4(), or ex5().
 }
 
 main()
