@@ -5,23 +5,32 @@
 //
 
 const ex1 = () => {
-    console.log('Exercise 1')
+    let message1 = "Hola Mundo"
+    console.log(message1)
 }
 
 const ex2 = () => {
-    console.log('Exercise 2')
+    const num1 = 8
+    const num2 = "8"
+    console.log(num1 = Number(num2))
 }
 
 const ex3 = () => {
-    console.log('Exercise 3')
+    const meName = "Maria Becerra"
+    const message2 = "here"
+    console.log(meName + " " + message2)
 }
 
 const ex4 = () => {
-    console.log('Exercise 4')
+    const sum1=1+5
+    console.log(typeof(sum1))
 }
 
 const ex5 = () => {
-    console.log('Exercise 5')
+    const training = " SDET "
+    const TypeLenguage = " JavaScript "
+    const fin = " cool"
+    console.log("My Training " +  training + " with " + TypeLenguage + fin)
 }
 
 //
@@ -29,7 +38,7 @@ const ex5 = () => {
 //
 
 const main = () => {
-    ex1() // Change to ex2(), ex3(), ex4(), or ex5().
+    ex5() // Change to ex2(), ex3(), ex4(), or ex5().
 }
 
 main()
