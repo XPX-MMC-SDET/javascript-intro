@@ -35,6 +35,11 @@ const ex4 = () => {
 
 const ex5 = () => {
     console.log('Exercise 5')
+    const beginning = "JavaScript is a "
+    const typeOfLanguage = "" // <==TODO: What is it???
+    const end =" language."
+    console.log(beginning.concat(typeOfLanguage,end))
+   // console.log(beginning + typeOfLanguage + end)
 }
 
 //
@@ -42,7 +47,7 @@ const ex5 = () => {
 //
 
 const main = () => {
-    ex4() // Change to ex2(), ex3(), ex4(), or ex5().
+    ex5() // Change to ex2(), ex3(), ex4(), or ex5().
 }
 
 main()
