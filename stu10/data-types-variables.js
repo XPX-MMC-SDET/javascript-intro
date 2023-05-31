@@ -12,6 +12,9 @@ const ex1 = () => {
 
 const ex2 = () => {
     console.log('Exercise 2')
+    const number1 = 5
+    const number2 = "5"
+    console.log(number1 + Number(number2))
 }
 
 const ex3 = () => {
@@ -31,7 +34,7 @@ const ex5 = () => {
 //
 
 const main = () => {
-    ex1() // Change to ex2(), ex3(), ex4(), or ex5().
+    ex2() // Change to ex2(), ex3(), ex4(), or ex5().
 }
 
 main()
