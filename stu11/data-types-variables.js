@@ -6,22 +6,34 @@
 
 const ex1 = () => {
     console.log('Exercise 1')
+    const message ='Hello World'
+    console.log (message)
 }
 
 const ex2 = () => {
-    console.log('Exercise 2')
+    const myFirstName = "Ravi"
+    const message = "Hi"
+    console.log (myFirstName +" "+ message)
 }
 
-const ex3 = () => {
+const ex3 = () =>{
     console.log('Exercise 3')
+    const result = 3 + 5
+    console.log(typeof(result))
 }
 
-const ex4 = () => {
+function ex4() {
     console.log('Exercise 4')
+    const result = 1 + 2 
+    console.log(typeof(result))
 }
 
 const ex5 = () => {
     console.log('Exercise 5')
+    const beginning = "Javascript is a"
+    const typeOfLanguage = "Dynamic"
+    const end = "language"
+    console . log (beginning+typeOflanguage+end)
 }
 
 //
