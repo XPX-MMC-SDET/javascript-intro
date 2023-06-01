@@ -16,9 +16,11 @@ const ex2 = () => {
 }
 
 const ex3 = () =>{
-    console.log('Exercise 3')
-    const result = 8 + 5
-    console.log(typeof(result))
+    
+    const myName = "Jhon"
+    const message = "was here"
+    console.log(myName + ' ' + message)
+    
 }
 
 function ex4() {
@@ -40,7 +42,7 @@ const ex5 = () => {
 //
 
 const main = () => {
-    ex2() // Change to ex2(), ex3(), ex4(), or ex5().
+    ex3() // Change to ex2(), ex3(), ex4(), or ex5().
 }
 
 main()
