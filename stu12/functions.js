@@ -12,30 +12,31 @@ const ex1 = () => {
 }
 
 const ex2 = () => {
+    const add = (arg1,arg2) => { return arg1+arg2 }
     const result = add(2, 3)
-    console.log(result) 
-
-    function add(arg1,arg2){
-        return arg1+arg2
-    }
+    console.log(result)   
 }
 
 const ex3 = () => {
     
-    console.log(buildSentence('This', 'is', 'a', 'sentence'))
-    function buildSentence(arg1, arg2, arg3, arg4){
+    const buildSentence= (arg1, arg2, arg3, arg4) => {
         return arg1+" "+arg2+" "+arg3+" "+arg4
     }
+
+    console.log(buildSentence('This', 'is', 'a', 'sentence'))
+
 }
+    
+   
 
 const ex4 = () => {
     
-    const newWord = doubleIt('Hello')
-    console.log(newWord)
-
-    function doubleIt(arg1){
+    const doubleIt= (arg1) => {
         return arg1+arg1
     }
+    const newWord = doubleIt('Hello')
+    console.log(newWord)
+    
 
 }
 
@@ -72,7 +73,7 @@ const practice1 = () =>{
 
 
 function main() {
-    ex5() // Change to ex2(), ex3(), ex4(), or ex5().
+    ex4() // Change to ex2(), ex3(), ex4(), or ex5().
 }
 
 main()
