@@ -6,14 +6,10 @@
 
 
 function showMessage(){
-    return ( 'HI EVERYONE' );  // YOUR FUNCTIONS GO HERE
+    return ( "HI EVERYONE" );  // YOUR FUNCTIONS GO HERE
 }
 
-
-
-//
 showMessage();    // The one and only main function.
-//
 
 
 //main()
