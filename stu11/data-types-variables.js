@@ -16,25 +16,21 @@ const ex2 = () => {
 }
 
 const ex3 = () =>{
-    
-    const myName = "Jhon"
+    const myName = "John"
     const message = "was here"
     console.log(myName + ' ' + message)
-    
 }
 
 function ex4() {
-    console.log('Exercise 4')
     const result = 9 + 2 
     console.log(typeof(result))
 }
 
 const ex5 = () => {
-    console.log('Exercise 5')
     const beginning = "Javascript is a"
     const typeOfLanguage = "Dynamic"
     const end = "language"
-    console . log (beginning+typeOflanguage+end)
+    console.log (beginning+typeOflanguage+end)
 }
 
 //
@@ -42,7 +38,7 @@ const ex5 = () => {
 //
 
 const main = () => {
-    ex3() // Change to ex2(), ex3(), ex4(), or ex5().
+    ex5() // Change to ex2(), ex3(), ex4(), or ex5().
 }
 
 main()

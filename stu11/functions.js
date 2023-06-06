@@ -5,10 +5,11 @@
 //
 
 const ex1 = () => {
-    console.log('Exercise 1')
+    let message = "Hello World"
+    console.log(message)
 }
 
-const ex2 = () => {
+const ex2() {
     console.log('Exercise 2')
 }
 
