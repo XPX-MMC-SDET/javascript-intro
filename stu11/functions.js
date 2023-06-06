@@ -5,9 +5,11 @@
 //
 
 const ex1 = () => {
-    let message = "Hello World"
-    console.log(message)
+    printMessage("Hello World")
+
 }
+
+
 
 const ex2() {
     console.log('Exercise 2')
