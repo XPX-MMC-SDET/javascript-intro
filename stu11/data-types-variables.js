@@ -15,7 +15,7 @@ const ex2 = () => {
     console.log (number1+ parseInt(number2))
 }
 
-const ex3 = () =>{
+const ex3 = () => {
     const myName = "John"
     const message = "was here"
     console.log(myName + ' ' + message)
